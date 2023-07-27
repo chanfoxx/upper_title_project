@@ -1,4 +1,8 @@
 def str_upper(text):
+    """
+    Принимает строку и возвращает 
+    ее со всеми заглавными буквами.
+    """
     try:
         result = text.upper()
     except AttributeError:
